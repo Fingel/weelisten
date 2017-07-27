@@ -43,7 +43,7 @@ class WeechatRelayListener(asyncio.Protocol):
         if highlight:
             summary = 'New highlight'
         else:
-            summary = f'New message from {prefix}'
+            summary = 'New message from {}'.format(prefix)
         self.notification = notify2.Notification(summary, message, 'user-available-symbolic')
         self.notification.show()
 
