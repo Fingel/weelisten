@@ -9,8 +9,8 @@ for running Weechat sessions. This is particularly helpful if you run Weehcat in
 screen or tmux session and would like notifications on your desktop.
 
 ## Installation
-Weelisten requires python-notify2. This package is named `python-notify2` in debian/ubuntu
-and the Arch Linux AUR. Alternatively you can install it using pip: `pip install -r requirements.txt`
+Weelisten requires python3-notify2. This package is named `python3-notify2` in debian/ubuntu
+and `python-notify2` in the Arch Linux AUR. Alternatively you can install it using pip: `pip install -r requirements.txt`
 
 ## Usage
 First make sure your weechat relay is up and available. Then clone the repo and launch the client:
