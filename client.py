@@ -57,7 +57,7 @@ if __name__ == '__main__':
     parser.add_argument('host', help='Relay host')
     parser.add_argument('password', help='Relay password')
     parser.add_argument('-p', '--port', help='Relay port (9001)', type=int, default=9001)
-    parser.add_argument('-s', '--ssl', help='Use ssl (true)', action='store_true', default=True)
+    parser.add_argument('-s', '--ssl', help='Use ssl (true)', action='store_false', default=True)
     args = parser.parse_args()
 
     loop = asyncio.get_event_loop()
