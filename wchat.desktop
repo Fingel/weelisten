@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=wchat
+Exec=gnome-terminal -- wchat
+Encoding=UTF-8
+Comment=Weechat with weelisten
+Icon=polari.png
+Terminal=false
